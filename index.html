@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar glass">
+        <div class="container">
+            <a href="#" class="logo">Rahul Kumar Verma</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <div class="toggle-switch" id="themeSwitch" title="Toggle theme"></div>
+                </li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">&#9776;</div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero glass">
+        <div class="hero-content reveal">
+            <h1>Hello, I’m <span>Rahul</span></h1>
+            <p><span class="typed"></span></p>
+            <a href="Rahul_Kumar_verma.pdf" class="btn btn-primary reveal" target="_blank">View CV</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about reveal glass">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m Rahul Kumar Verma—a full-stack developer by profession and a problem-solver by passion. Whether
+                it’s architecting intuitive user interfaces or engineering complex backend logic, I love the full cycle
+                of development. One of my favorite builds? A custom billing software solution, designed to handle the
+                chaos of real-time business transactions. Fueled by curiosity and code, I’m always ready for the next
+                challenge. Let’s build something bold!
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills reveal glass">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects reveal glass">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="project-card reveal">
+                    <h3>Squarespace</h3>
+                    <p>"Designed and developed a custom webpage using Squarespace, enhanced with HTML, CSS, and
+                        JavaScript for improved functionality and user experience."</p>
+                    <a href="https://github.com/rahulverma3366/squarespace.git" class="btn" target="_blank">View on
+                        GitHub</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>Billing Software</h3>
+                    <p>Developed a user friendly billing software. Streamling the invoicing process and reducing billing
+                        errors</p>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                    <a href="https://github.com/rahulverma3366/Product-And-Production-Management.git" class="btn"
+                        target="_blank">View on GitHub</a>
+                </div>
+
+                 <div class="project-card reveal">
+                    <h3>Netmeds Online Pharmacy</h3>
+                    <p>Created an online pharmacy website to showcase e-commerce features like product display, cart system, and responsive design.</p>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                    <a href="#" class="btn btn-secondary disabled">GitHub (Coming Soon)</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact reveal glass">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="from_name" placeholder="Your Name" required />
+                <input type="email" name="from_email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-secondary">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p>Email: <a href="rv26462@gmail.com">rv26462@gmail.com</a></p>
+                <p>Phone: +91-9341833662</p>
+                <p>GitHub: <a href="https://github.com/rahulverma3366/rahulverma3366.git">MY github Profile</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/rahul-verma-259552245">MY LinkedIn
+                        Profile</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass">
+        <div class="container">
+            <p>&copy; 2025 Rahul Kumar Verma. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
